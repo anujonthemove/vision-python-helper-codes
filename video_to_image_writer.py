@@ -66,7 +66,7 @@ class VideoToImageWriter(object):
 
 def main():
 	# Example
-	VideoToImageWriter.image_writer('<path to video>', image_prefix='image', image_extn='.jpg')
+	VideoToImageWriter.image_writer('/media/anuj/Work-HDD/WORK/CLOUD-DRIVE/Google-Drive/Computer-Vision/Sample-Videos/Abandoned-Object/pets2006_1.avi', image_prefix='image', image_extn='.jpg')
 
 if __name__ == '__main__':
 	main()
